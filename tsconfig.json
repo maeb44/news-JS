@@ -18,14 +18,14 @@
         "checkJs": false,
 
         //правила для безболезненной миграции
-        "strict": false,
-        "noImplicitAny": false,
-        "exactOptionalPropertyTypes": false,
-        "noUncheckedIndexedAccess": false,
-        "noImplicitThis": false,
-        "strictBindCallApply": false,
-        "strictNullChecks": false,
-        "noImplicitReturns": false
+        "strict": true,
+        "noImplicitAny": true,
+        "exactOptionalPropertyTypes": true,
+        "noUncheckedIndexedAccess": true,
+        "noImplicitThis": true,
+        "strictBindCallApply": true,
+        "strictNullChecks": true,
+        "noImplicitReturns": true
     },
     "include": ["src/**/*"]
 }
