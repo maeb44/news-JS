@@ -7,7 +7,6 @@ class Sources {
 
         const sources = document.querySelector('.sources');
         if (sources === null) return;
-
         const sourceItemTemp = document.querySelector('#sourceItemTemp');
         if (!(sourceItemTemp instanceof HTMLTemplateElement)) return;
 

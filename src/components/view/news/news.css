@@ -1,6 +1,18 @@
+.news {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: calc(100vh - 30px - 80px);
+    padding: 0 10px 10px 10px;
+    overflow: auto;
+}
+.news::-webkit-scrollbar {
+    display: none;
+}
 .news__item {
     display: flex;
     flex-direction: column;
+    flex-shrink: 0;
     margin: 1rem auto;
     margin-bottom: 1.6%;
     background: #fff;
@@ -90,7 +102,9 @@
     margin-left: -10px;
     opacity: 0;
     vertical-align: middle;
-    transition: margin 0.3s, opacity 0.3s;
+    transition:
+        margin 0.3s,
+        opacity 0.3s;
 }
 
 .news__item .news__description .news__read-more a:hover:after {
