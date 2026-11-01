@@ -27,14 +27,14 @@ class AppController extends AppLoader {
                     newsContainer.setAttribute('data-source', sourceId);
                     super.getResp<NewsResponse>(
                         {
-                            // endpoint: 'everything',
-                            // options: {
-                            //     sources: sourceId,
-                            // },
-                            endpoint: 'mocks/everything',
+                            endpoint: 'everything',
                             options: {
-                                sources: 'mocks/sources', //mock данные
+                                sources: sourceId,
                             },
+                            // endpoint: 'mocks/everything',
+                            // options: {
+                            //     sources: 'mocks/sources', //mock данные
+                            // },
                         },
                         callback
                     );
