@@ -1,0 +1,26 @@
+{
+    "compilerOptions": {
+        "rootDir": "./src",
+        "outDir": "./dist",
+        "module": "nodenext",
+        "moduleResolution": "NodeNext",
+        "target": "ES2022",
+        "types": ["node"],
+        "sourceMap": false,
+        "esModuleInterop": true,
+        "verbatimModuleSyntax": false,
+        "isolatedModules": true,
+        "noUncheckedSideEffectImports": true,
+        "moduleDetection": "force",
+
+        "strict": true,
+        "noImplicitAny": true,
+        "exactOptionalPropertyTypes": true,
+        "noUncheckedIndexedAccess": true,
+        "noImplicitThis": true,
+        "strictBindCallApply": true,
+        "strictNullChecks": true,
+        "noImplicitReturns": true
+    },
+    "include": ["src/**/*"]
+}
